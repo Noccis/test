@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a9d956dd.css",
+    "main.js": "/static/js/main.db260c07.js",
+    "static/js/988.9bd27bfc.chunk.js": "/static/js/988.9bd27bfc.chunk.js",
+    "static/media/batman.png": "/static/media/batman.481e0642607c07c2d2d7.png",
+    "static/media/webpagelogo.png": "/static/media/webpagelogo.2c6883ca5fef6e676a1e.png",
+    "static/media/noimage.jpg": "/static/media/noimage.3aae36e083c1de43324b.jpg",
+    "static/media/guns.png": "/static/media/guns.56dbbe768b1b1dc3dd46.png",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.a9d956dd.css.map": "/static/css/main.a9d956dd.css.map",
+    "main.db260c07.js.map": "/static/js/main.db260c07.js.map",
+    "988.9bd27bfc.chunk.js.map": "/static/js/988.9bd27bfc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a9d956dd.css",
+    "static/js/main.db260c07.js"
+  ]
+}
