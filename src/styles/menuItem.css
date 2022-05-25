@@ -1,0 +1,48 @@
+#MenuItemImage {
+    align-self: center;
+    width: 49%;
+    height: 80%;
+  }
+
+
+h1 {
+    font-size: 20pt;
+    color: black;
+    font-weight: 700;
+}
+
+.menuItemImageContainer {
+flex: 1;
+/* background-color: black; */
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.menuItemTitle {
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.menuItemContainer {
+    align-self: center;
+    flex-direction: column;
+    display: flex;
+    margin-top: 25px;
+    width: 100%;
+    height: 120px;
+    /* background-color: red; */
+
+    border: 10px;
+    border-color: red;
+}
+
+.menuItemContainer:hover {
+    border-radius: 10px;
+    border-width: 30px;
+    border-color: red;
+    background-color: #f7d998;
+}

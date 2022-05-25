@@ -1,0 +1,65 @@
+.feedbackContainer{
+    background-color: #E5E5E5;
+    height: 200px;
+    width: 500px;
+    border: 1px solid #6e6c6b;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+  }
+  
+  .feedbackText {
+    padding: 10px;
+    font-style: italic;
+    align-self: center;
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 200;
+    font-size: 17pt;
+    max-width: 450px;
+    
+  }
+
+  .feedbackText p {
+    margin: 0;
+  }
+
+  .starsAndAuthor {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .starsAndAuthor p {
+    align-self: flex-end;
+  }
+
+  .reactStars {
+    display: flex;
+    margin-left: 20px;
+  }
+  
+  .feedbackAuthor {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .feedbackAuthor p {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding-right: 10px;
+    padding-bottom: 5px;
+  }
+
+  @media (max-width: 600px) {
+    .feedbackContainer {
+      width: 300px;
+    } 
+  }
+
+  

@@ -1,0 +1,10 @@
+.discoverMoviesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background-color: lightgrey; */
+}
+
+.moviesMovieContainer {
+    margin: 10px;
+}

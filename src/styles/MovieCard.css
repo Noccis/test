@@ -1,0 +1,94 @@
+.normalMovieCardContainer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 280px;
+    width: 215px;
+    background-color: black;
+    position: relative;
+    border: 1px solid #000000;
+    box-sizing: content-box;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.smallMovieCardContainer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 182px;
+    width: 140px;
+    background-color: black;
+    position: relative;
+    border: 1px solid #000000;
+    box-sizing: content-box;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+
+.movieCardImage {
+    position: inherit;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    flex: 1;
+    z-index: 1;
+}
+
+
+img {
+    object-fit: contain;
+}
+
+.movieCardInfoContent {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding-top: 18px;
+    z-index: 2;
+    background: linear-gradient(180deg, rgba(98, 98, 98, 0) 0%, rgba(22, 22, 22, 0.81) 28.65%, #000000 88.02%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.movieCardInfoContent p {
+    color: white;
+    font-weight: 700;
+    font-size: 11pt;
+    margin: 0;
+}
+
+
+
+.movieCardUpperInfo {
+    /* Till senare */
+    margin-left: 5px;
+    margin-bottom: 8px;
+}
+
+.movieCardLowerInfo {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 8px;
+}
+
+@media (max-width: 600px) {
+
+    .movieCardContainer {
+        height: 180px;
+        width: 165px;
+        background-color: black;
+        position: relative;
+        border: 1px solid #000000;
+        box-sizing: content-box;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    
+}
